@@ -1,20 +1,20 @@
 {
     "development": {
-        "username": "root",
+        "username": "postgres",
         "password": "1111",
         "database": "trying_back",
         "host": "localhost",
         "dialect": "postgres"
     },
     "test": {
-        "username": "root",
+        "username": "postgres",
         "password": "1111",
         "database": "trying_back",
         "host": "localhost",
         "dialect": "postgres"
     },
     "production": {
-        "username": "root",
+        "username": "postgres",
         "password": "1111",
         "database": "trying_back",
         "host": "localhost",
