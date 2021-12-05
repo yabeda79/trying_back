@@ -29,6 +29,11 @@ npm start
 
 Navigate to `http://localhost:3000`
 
+```
+npm i -D ts-node-dev
+ts-node-dev  server.ts
+```
+
 ### Using the debugger in VS Code
 
 Debugging is one of the places where VS Code really shines over other editors.
