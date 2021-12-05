@@ -2,25 +2,25 @@
 
 # Pre-reqs
 
-- Install [Node.js](https://nodejs.org/en/)
-- Install [VS Code](https://code.visualstudio.com/)
+-   Install [Node.js](https://nodejs.org/en/)
+-   Install [VS Code](https://code.visualstudio.com/)
 
 # Getting started
 
-- Clone the repository
+-   Clone the repository
 
 ```
 git clone https://github.com/greenroach/express-ts-template.git
 ```
 
-- Install dependencies
+-   Install dependencies
 
 ```
 cd <project_name>
 npm install
 ```
 
-- Build and run the project
+-   Build and run the project
 
 ```
 npm run build
@@ -31,7 +31,7 @@ Navigate to `http://localhost:3000`
 
 ```
 npm i -D ts-node-dev
-ts-node-dev  server.ts
+ts-node-dev src/server.ts
 ```
 
 ### Using the debugger in VS Code
@@ -45,11 +45,11 @@ In this file, you can tell VS Code exactly what you want to do:
 
 ```json
 {
-  "type": "node",
-  "request": "attach",
-  "name": "Attach by Process ID",
-  "processId": "${command:PickProcess}",
-  "protocol": "inspector"
+    "type": "node",
+    "request": "attach",
+    "name": "Attach by Process ID",
+    "processId": "${command:PickProcess}",
+    "protocol": "inspector"
 }
 ```
 
