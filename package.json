@@ -22,7 +22,7 @@
         "validate-prettiness": "yarn run-prettier -c",
         "make-prettier": "yarn run-prettier --write",
         "dev": "ts-node-dev ./src/server.ts",
-        "mirgate": "npx sequelize-cli db:migrate",
+        "migrate": "npx sequelize-cli db:migrate",
         "migrate-undo": "npx sequelize-cli db:migrate:undo:all",
         "seed-all": "npx sequelize-cli db:seed:all",
         "seed-undo-all": "npx sequelize-cli db:seed:undo:all"
@@ -33,6 +33,7 @@
         "express": "^4.16.2",
         "http-errors": "^1.7.1",
         "morgan": "^1.9.1",
+        "pg": "^8.7.1",
         "pug": "^3.0.1",
         "sequelize": "^6.12.0-beta.1"
     },
